@@ -1,12 +1,12 @@
 # learning-path
 
-<button onclick="copyCode()">Copy</button>
+<!-- <button onclick="copyCode()">Copy</button> -->
 ```
 <pre><code>
 // Kode yang ingin Anda salin
 </code></pre>
 ```
-<script>
+<!-- <script>
 function copyCode() {
     var codeBlock = document.querySelector("pre");
     var range = document.createRange();
@@ -17,4 +17,4 @@ function copyCode() {
     window.getSelection().removeAllRanges();
     alert("Kode telah disalin!");
 }
-</script>
+</script> -->
