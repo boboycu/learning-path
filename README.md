@@ -1,10 +1,9 @@
 # learning-path
 
 <!-- <button onclick="copyCode()">Copy</button> -->
-```
-<pre><code>
-// Kode yang ingin Anda salin
-</code></pre>
+```javascript
+const day='minggu'
+consol.log(day)
 ```
 <!-- <script>
 function copyCode() {
