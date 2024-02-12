@@ -1,14 +1,14 @@
 # JAVSRIPT CLIENT SIDE
- 
- fungsi yang sering di pakai debuging
 
-`Fungsi  alert() menampilkan pesan kepada pengguna dalam  dialog dengan tombol OK`
+Fungsi yang sering di pakai debuging
 
- `Fungsi  console.log() mencetak pesan ke konsol JavaScript browser Anda`
+`Fungsi  alert() menampilkan pesan kepada pengguna dalam  dialog dengan  tombol OK`
 
- ----------
+`Fungsi  console.log() mencetak pesan ke konsol JavaScript browser Anda`
 
- Dalam JavaScript, Anda perlu menghubungkan sendiri fungsi Anda. Pertama, tentukan fungsi di dalam `<script>` Anda:
+---
+
+Dalam JavaScript, Anda perlu menghubungkan sendiri fungsi Anda. Pertama, tentukan fungsi di dalam `<script>` Anda:
 
 ```javascript
 <script>
@@ -17,13 +17,14 @@
   }
 </script>
 ```
+
 Contoh pengguna click button akan menampilkan Hello di popup window
 
 ```javascript
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>JS Callback Functions</title>
+	<title>JS Callback Functions</title>
 	</head>
 	<body>
 		<p>Click this button:</p>
@@ -39,18 +40,19 @@ Contoh pengguna click button akan menampilkan Hello di popup window
 </html>
 ```
 
- 1. Manipulasi DOM
+1.  Manipulasi DOM
 
 pertama-tama tambahkan elemen HTML dengan atribut: id
 Selanjutnya, di JavaScript Anda, panggil document.getElementById() fungsi tersebut dan berikan ID elemen HTML, dan simpan hasilnya dalam sebuah variabel:
 Fungsi ini document.getElementById() mengembalikan Element objek yang menunjuk ke elemen HTML dengan ID tersebut. Sekarang Anda sudah memilikinya dalam sebuah variabel, Anda dapat mengubahnya menggunakan kode JavaScript.
+
 > Catatan atribut bisa class atau id
+
 ```javascript
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>JS Callback Functions</title>
-    
 	</head>
 	<body>
 		<p>Click this button:</p>
@@ -67,6 +69,9 @@ Fungsi ini document.getElementById() mengembalikan Element objek yang menunjuk k
 	</body>
 </html>
 ```
+
+//akan memasukan [Hello!] ke element: p id: output
+
 ```javascript
 <!DOCTYPE html>
 <html>
@@ -81,8 +86,6 @@ Fungsi ini document.getElementById() mengembalikan Element objek yang menunjuk k
 	</body>
 </html>
 ```
+
 //document.write('Hello world!');
 akan menampilkan [Hello world!] ke layar
-
-
-
