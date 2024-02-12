@@ -40,6 +40,8 @@ Contoh pengguna click button akan menampilkan Hello di popup window
 </html>
 ```
 
+---
+
 1.  Manipulasi DOM
 
 pertama-tama tambahkan elemen HTML dengan atribut: id
@@ -70,7 +72,9 @@ Fungsi ini document.getElementById() mengembalikan Element objek yang menunjuk k
 </html>
 ```
 
-//akan memasukan [Hello!] ke element: p id: output
+> // memasukan [Hello!] ke element:p id:output
+
+---
 
 ```javascript
 <!DOCTYPE html>
@@ -87,5 +91,34 @@ Fungsi ini document.getElementById() mengembalikan Element objek yang menunjuk k
 </html>
 ```
 
-//document.write('Hello world!');
-akan menampilkan [Hello world!] ke layar
+> // document.write('Hello world!');
+
+## akan menampilkan [Hello world!] ke layar
+
+Memasukkan inputan dari pengguna,Anda bisa mendapatkan elemen input [value] yang berisi apa pun yang diketik pengguna:
+
+```javascript
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Callback Functions</title>
+  </head>
+  <body>
+    <p>Type your name and then click the button:</p>
+    <input id="nameInput" />
+    <button onclick="showMessage()">Click me!</button>
+    <p id="output"></p>
+    <script>
+      function showMessage() {
+        let nameInputElement = document.getElementById("nameInput");
+        let name = nameInputElement.value;
+
+        let outputElement = document.getElementById("output");
+        outputElement.innerText = "Hello " + name + "!";
+      }
+    </script>
+  </body>
+</html>
+```
+
+> // outputElement.innerText = "Hello " + name + "!"; di sebut concatination ["Hello " + name + "!"] penggabungan string
