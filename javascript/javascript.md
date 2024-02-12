@@ -95,7 +95,8 @@ Fungsi ini document.getElementById() mengembalikan Element objek yang menunjuk k
 
 
 
-Memasukkan inputan dari pengguna,Anda bisa mendapatkan elemen input [value] yang berisi apa pun yang diketik pengguna:
+- Memasukkan inputan dari pengguna
+Anda bisa mendapatkan elemen input [value] yang berisi apa pun yang diketik pengguna:
 
 ```javascript
 <!DOCTYPE html>
