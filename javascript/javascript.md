@@ -91,9 +91,9 @@ Fungsi ini document.getElementById() mengembalikan Element objek yang menunjuk k
 </html>
 ```
 
-> // document.write('Hello world!');
+> // document.write('Hello world!');  akan menampilkan [Hello world!] ke layar
 
-## akan menampilkan [Hello world!] ke layar
+
 
 Memasukkan inputan dari pengguna,Anda bisa mendapatkan elemen input [value] yang berisi apa pun yang diketik pengguna:
 
