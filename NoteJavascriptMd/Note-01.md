@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
+
 # <center> Javascript [Source Learn](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/get-started) </center>
 tiga pilar bahasa JS: cakupan/penutupan, prototipe/objek, dan tipe/paksaan JS.
 
