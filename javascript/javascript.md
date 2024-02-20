@@ -1,3 +1,5 @@
+<link href="../NoteJavascriptMd/style.css" rel="stylesheet"></link>
+
 # JAVSRIPT CLIENT SIDE
 
 Fungsi yang sering di pakai debuging
